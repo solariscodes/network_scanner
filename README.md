@@ -20,27 +20,27 @@ A simple and efficient network scanner built using Python, PyQt5, and the ping3 
 
 1. Clone the repository or download the source code.
 
-\```
+```
 git clone https://github.com/solariscodes/network_scanner.git
-\```
+```
 
 2. Navigate to the project directory.
 
-\```
+```
 cd network_scanner
-\```
+```
 
 3. Install the required dependencies using `pip`.
 
-\```
+```
 pip install -r requirements.txt
-\```
+```
 
 4. Run the application.
 
-\```
+```
 python app.py
-\```
+```
 
 ## Usage
 
