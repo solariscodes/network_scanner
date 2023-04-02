@@ -20,7 +20,7 @@ class NetworkScanner(QWidget):
         layout.addWidget(QLabel("Enter the CIDR:"))
         self.cidr_input = QLineEdit()
         layout.addWidget(self.cidr_input)
-
+        self.cidr_input.setText("192.168.1.0/24")
         self.scan_button = QPushButton("Scan Network")
         self.scan_button.clicked.connect(self.scan_network)
         layout.addWidget(self.scan_button)
@@ -74,7 +74,6 @@ class NetworkScanner(QWidget):
 
             for t in threads:
                 t.join()
-
             print("Scan completed.")
             signals.progress.emit(100)
 
