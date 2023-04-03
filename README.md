@@ -45,7 +45,7 @@ python app.py
 ## Usage
 
 1. Launch the application.
-2. Enter the desired CIDR notation (e.g., `192.168.1.0`) in the input field.
+2. Enter the desired CIDR notation (e.g., `192.168.1.0/24`) in the input field.
 3. Click the "Scan Network" button.
 4. The application will display alive hosts in the network along with their RTTs.
 
